@@ -1,0 +1,4 @@
+aiohttp==1.0.5
+aiosocks==0.1.7
+PySocks==1.5.7
+requests==2.10.0
