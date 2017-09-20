@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = '3.6'
+
+[packages]
+
+aiohttp = "==1.0.5"
+aiosocks = "==0.1.7"
+PySocks = "==1.5.7"
+requests = "==2.10.0"
+
+[dev-packages]

@@ -10,7 +10,9 @@ proxies = {
 url = 'http://icanhazip.com/'
 
 response = requests.get(url)
-print('ip: {}'.format(response.text.strip()))
+host_ip = response.text.strip()
+print(f'ip: {host_ip}')
 
 response = requests.get(url, proxies=proxies)
-print('tor ip: {}'.format(response.text.strip()))
+tor_ip = response.text.strip()
+print(f'tor ip: {tor_ip}')

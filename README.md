@@ -4,18 +4,26 @@ Examples on how to use Tor in python with [`requests`](https://github.com/kennet
 
 Assumes Tor will run on `127.0.0.1:9050`.
 
+Requires Python 3.6+
+
 ## Setup
 
 ```
-mkvirtualenv python-tor-examples -p python3 -r requirements.txt -a `pwd`
+pipenv install
 ```
 
 ## Usage
 
 ```
-workon python-tor-examples
-./tor_with_requests.py
-./tor_with_aiohttp.py
+pipenv run python tor_with_aiohttp.py
+pipenv run python tor_with_requests.py
+```
+
+## Setting up Python and Pipenv
+
+```
+brew install python3
+pip install --upgrade pipenv
 ```
 
 ## Setting up Tor
