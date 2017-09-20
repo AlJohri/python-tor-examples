@@ -23,7 +23,7 @@ pipenv run python tor_with_requests.py
 
 ```
 brew install python3
-pip install --upgrade pipenv
+pip3 install --upgrade pipenv
 ```
 
 ## Setting up Tor
